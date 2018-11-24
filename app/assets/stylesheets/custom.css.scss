@@ -5,6 +5,11 @@ $navbar-default-bg: #fff;
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
 
+
+* {
+	font-family: 'Montserrat',sans-serif;
+}
+
 #logo {
 	color: crimson;
 	float: left;
@@ -15,7 +20,7 @@ $navbar-default-bg: #fff;
 }
 
 #logo:hover {
-	color: #fff;
+	color: crimson;
 	text-decoration: none;
 }
 
@@ -34,8 +39,7 @@ $navbar-default-bg: #fff;
 
 .jumbotron h1 {
 	color: #d0d0d0;
-	font-family: 'Montserrat',sans-serif;
-	font-size: 8rem;
+	font-size: 10rem;
 	font-weight: 700;
 	letter-spacing: -1px;
 	text-align: center;
@@ -47,10 +51,9 @@ $navbar-default-bg: #fff;
 	border: 3px solid #d0d0d0;
 	border-radius: 2em;
 	color: #d0d0d0;
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
 	letter-spacing: -1px;
-	padding: 1em;
+	padding: 0.5em 1em;
 }
 
 
@@ -61,7 +64,6 @@ $navbar-default-bg: #fff;
 footer {
 	border-top: 1px solid #eaeaea;
 	color: #777;
-	font-family: 'Montserrat',sans-serif;
 	font-size: 1.6rem;
 	margin-top: 1em;
 	padding-top: 1em;
